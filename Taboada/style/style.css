@@ -1,0 +1,116 @@
+/* padronizar */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+body {
+
+    color: #fff;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(70,113,252,1) 100%);
+    background-attachment: fixed;
+    padding: 2rem;
+    min-height: 100vh;
+
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+#multiplication-form {
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+
+
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 0 1rem;
+
+}
+
+.form-control label {
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.form-control input {
+    margin-bottom: 1rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border-radius: 0.4rem;
+    width: 50px;
+    border: 1px solid #333;
+    text-align: center;
+    color: #333;
+}
+
+#multiplication-form input[type=submit] {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+#multiplication-form input[type=submit]:hover {
+    background-color: #615c5c;
+}
+
+#multiplication-operations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    max-width: 300px;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+
+}
+
+#multiplication-operations p {
+    margin-bottom: 0.5rem;
+}
+
+
+#multiplication-operations .row {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+
+/* last-child para colocar border-bottom apenas no ultimo resultado! */
+#multiplication-operations .row:last-child {
+    border: 1px solid #ccc;
+}
+
+#multiplication-operations .result {
+    margin-left: 0.4rem;
+}
