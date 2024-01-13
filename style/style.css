@@ -10,8 +10,6 @@ body {
     color: #fff;
     text-align: center;
     background-image: linear-gradient(to right top, #051937, #0d315f, #144b8b, #1767ba, #1284eb);
-
-
     background-attachment: fixed;
     padding: 2rem;
     min-height: 100vh;
