@@ -9,9 +9,9 @@ body {
 
     color: #fff;
     text-align: center;
-    background: rgb(0,0,0);
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(70,113,252,1) 100%);
+    background-image: linear-gradient(to right top, #051937, #0d315f, #144b8b, #1767ba, #1284eb);
+
+
     background-attachment: fixed;
     padding: 2rem;
     min-height: 100vh;
